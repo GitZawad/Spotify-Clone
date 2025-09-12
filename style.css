@@ -1,0 +1,285 @@
+* {
+    font-family: sans-serif;
+    padding: 0;
+    margin: 0;
+}
+
+.left {
+    width: 25vw;
+    padding: 5px;
+    font-size: 15px;
+}
+
+.right {
+    width: 75vw;
+}
+
+.left img {
+    filter: invert(1);
+}
+
+.home {
+    gap: 8px;
+    font-weight: 700;
+}
+
+.search {
+    gap: 8px;
+    margin-top: 15px;
+    font-weight: 700;
+}
+
+.home a {
+    color: white;
+    text-decoration: none;
+}
+
+.search a {
+    color: white;
+    text-decoration: none;
+}
+
+.home ul {
+    list-style: none;
+}
+
+.home li {
+    display: flex;
+    gap: 10px;
+    margin-top: 9px;
+}
+
+.library {
+    margin-top: 8px;
+    font-weight: 700;
+    min-height: 70vh;
+    position: relative;
+}
+
+
+.footer a {
+    font-size: 10px;
+    gap: 10px;
+    text-decoration: none;
+    color: grey;
+}
+
+.footer {
+    /* margin-top: 250px; */
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+    position: absolute;
+    bottom: 20px;
+}
+
+.library img {
+    width: 20px;
+}
+
+.header {
+    display: flex;
+    gap: 10px;
+    color: white;
+    width: 100%;
+}
+
+
+.right {
+    padding: 5px;
+    position: relative;
+}
+
+.head {
+    height: 40px;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.fa-solid {
+    filter: invert(1);
+}
+
+
+.rounded {
+    width: 15px;
+    text-align: center;
+    background-color: rgba(252, 252, 252, 0.623);
+    border-radius: 100%;
+    padding: 8px;
+    box-shadow: 0px 1px 3px 0px #fdb2df;
+
+}
+
+.signIn {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    padding-right: 15px;
+    font-size: 15px;
+}
+
+.signIn span {
+    color: rgb(165, 165, 165);
+    font-weight: 550;
+}
+
+.signIn span:hover {
+    color: white;
+    cursor: pointer;
+}
+
+.signIn button {
+    padding: 10px 30px;
+    border-radius: 30px;
+    border-style: none;
+    cursor: pointer;
+    font-weight: 550;
+
+}
+
+.signIn button:hover {
+    font-size: 14px;
+    box-shadow: 0 0 5px 3px rgb(24 23 23);
+}
+
+.playlist {
+    background-color: rgb(24 23 23);
+    padding: 10px;
+    overflow-y: scroll;
+    max-height: 70vh;
+}
+
+.playlist h2 {
+    color: white;
+    margin-top: 10px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.card h4 {
+    color: grey;
+    margin-top: 8px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.card {
+    width: 150px;
+    /* height: 250px; */
+    padding: 10px;
+    margin-top: 10px;
+    border-radius: 5px;
+    position: relative;
+}
+
+
+.card img {
+    width: 150px;
+    object-fit: contain;
+    border-radius: 5px;
+}
+
+.play-button {
+    background-color: green;
+    width: 20px;
+    border-radius: 100%;
+    text-align: center;
+    padding: 5px;
+    position: absolute;
+    z-index: 1;
+    bottom: 45px;
+    right: 23px;
+    transition: all 0.5s ease 0s;
+    opacity: 0;
+}
+
+.transition {
+    opacity: 1;
+    bottom: 90px;
+}
+
+.card-container {
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+
+
+.play-nav {
+    background-color: rgba(8, 8, 8, 0.801);
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    padding: 15px;
+    border-radius: 5px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+
+.play-nav i {
+    color: black;
+    font-size: 25px;
+}
+
+.songList ul li{
+    color: rgb(255, 255, 255);
+    list-style-type: none;
+    font-size: 12px;
+}
+
+.songList ul li i{
+    color: rgb(3, 3, 3);
+}
+
+.songList{
+    height: 280px;
+    overflow-y: scroll;
+    overflow-x: visible;
+    /* padding: 2px; */
+    margin-top: 12px;
+    margin-bottom: 100px;
+    padding-right: 8px;
+}
+
+.songCard{
+    display: flex;
+    justify-content: space-between;
+    /* background-color: #4747476c; */
+    height: 50px;
+    padding: 2px 10px;
+    border-radius: 10px;
+    /* width: 200px; */
+    margin-top: 10px;
+    gap: 5px;
+    border: 2px solid rgb(100, 97, 97);
+}
+
+.songCard .left-side{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.songCard .left-side span{
+    width: 110px;
+    font-size: 12px;
+    /* overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap; */
+    word-wrap: break-word;
+}
+
+.songCard .right-side{
+    display: flex;
+    align-items: center;
+    gap: 2px;
+    font-size: 12px;
+    width: 79px;
+}

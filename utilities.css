@@ -1,0 +1,69 @@
+.img{
+    width: 20px;
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+.border-red{
+    border-radius: 5px;
+}
+
+.p-1{
+    padding: 15px;
+}
+
+.m-1{
+    margin: 1px;
+}
+
+.flex{
+    display: flex;
+}
+
+.gap{
+    height: 5px;
+    background-color: black;
+}
+
+.bg-black{
+    background-color: black;
+}
+
+.bg-grey{
+    background-color: rgb(18, 18, 18);
+}
+
+.overflow{
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+
+
+
+
+/* Dark scrollbar */
+::-webkit-scrollbar {
+  width: 12px;
+}
+
+::-webkit-scrollbar-track {
+  background: #1e1e1e; /* track color */
+}
+
+::-webkit-scrollbar-thumb {
+  background: #444;     /* thumb color */
+  border-radius: 6px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #666;     /* thumb color on hover */
+}
+
+/* Dark scrollbar for Firefox */
+html {
+  scrollbar-width: thin;            /* auto | thin | none */
+  scrollbar-color: #444 #1e1e1e;    /* thumb | track */
+}
+

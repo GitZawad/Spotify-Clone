@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spotify Clone</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="utilities.css">
+</head>
+
+<body>
+    <div class="container flex bg-black">
+        <div class="left border-red m-1">
+            <div class="home bg-grey p-1 border-red">
+                <div><img src="logo.svg" alt=""></div>
+                <ul>
+                    <li><img src="home.svg" alt="" class="img"><a href="">Home</a></li>
+                    <li><img src="Search.svg" alt="" class="img"><a href="">Search</a></li>
+                </ul>
+            </div>
+            <div class="library bg-grey border-red p-1">
+                <div class="header">
+                    <img src="playlist.svg" alt="">
+                    <h2>My library</h2>
+                </div>
+
+                <div class="songList">
+                    <ul>
+                        <li>
+                            <div class="songCard">
+                                <div class="left-side">
+                                    <img src="song-card.svg" alt="">
+                                    <span>Play Song</span>
+                                </div>
+
+                                <div class="right-side">
+                                    <span>Play Now</span>
+                                    <img src="song play.svg" alt="">
+                                </div>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+                <div class="footer">
+                    <div><a href="https://www.spotify.com/jp/legal/"><span>Legal</span></a></div>
+                    <div><a href="https://www.spotify.com/jp/privacy/"><span>Privacy Center</span></a></div>
+                    <div><a href="https://www.spotify.com/jp/legal/privacy-policy/"><span>Privacy Policy</span></a>
+                    </div>
+                    <div><a href="https://www.spotify.com/jp/legal/cookies-policy/"><span>Cookies</span></a></div>
+                    <div><a href="https://www.spotify.com/jp/legal/privacy-policy/#s3"><span>About Ads</span></a></div>
+                    <div><a href="https://www.spotify.com/jp/accessibility/"><span>Accessibility</span></a></div>
+                </div>
+            </div>
+
+
+
+
+        </div>
+        <div class="right border-red m-1">
+            <div class="nav bg-grey border-red">
+                <div class="head bg-grey border-red">
+                    <div class="arrow">
+                        <i class="fa-solid fa-angle-left rounded"></i>
+                        <i class="fa-solid fa-angle-right rounded"></i>
+                    </div>
+                    <div class="signIn">
+                        <span>Sign Up</span>
+                        <button type="button">Login</button>
+                    </div>
+                </div>
+                <div class="playlist">
+                    <h2>My playlist</h2>
+
+                    <div class="card-container">
+                        <div class="card bg-grey">
+                            <div class="play-button transition">
+                                <i class="fa-solid fa-play"></i>
+                            </div>
+                            <img src="https://i.scdn.co/image/ab67616d00001e02cf86918e3b553a3cdf013749" alt="">
+                            <h2>Happy Hits!</h2>
+                            <h4>Kaaktaal</h4>
+
+                        </div>
+                        <div class="card bg-grey">
+                            <div class="play-button transition">
+                                <i class="fa-solid fa-play"></i>
+                            </div>
+                            <img src="https://i.scdn.co/image/ab67616d00001e02cf86918e3b553a3cdf013749" alt="">
+                            <h2>Happy Hits!</h2>
+                            <h4>Kaaktaal</h4>
+                        </div>
+                        <div class="card bg-grey">
+                            <div class="play-button transition">
+                                <i class="fa-solid fa-play"></i>
+                            </div>
+                            <img src="https://i.scdn.co/image/ab67616d00001e02cf86918e3b553a3cdf013749" alt="">
+                            <h2>Happy Hits!</h2>
+                            <h4>Kaaktaal</h4>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+
+
+        </div>
+        <div class="play-nav">
+            <i class="fa-sharp fa-solid fa-backward"></i>
+            <i class="fa-sharp fa-solid fa-play"></i>
+            <i class="fa-sharp fa-solid fa-forward"></i>
+        </div>
+    </div>
+
+
+    <script src="https://kit.fontawesome.com/557e0fafc1.js" crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>

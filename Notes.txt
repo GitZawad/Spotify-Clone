@@ -1,0 +1,7 @@
+1. to make the svg file work, we need to include an xnml link in the tag.
+2. to invert the color, filter : invert(1)
+3. to make th elfex items appear in multiple lines uponnot having enough space in one line, use flex-wrap : wrap
+4. use this technique for dots to appear in case the tex is overflowing : 
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
